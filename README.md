@@ -123,10 +123,10 @@ CPU跑的有点慢，仅跑了3个epoch就花费了差不多1.5个小时。
 
 一些参数设置：
 
-> batch_size = 128  
-> epoch_num = 3 
-> learning_rate = 1e-4  
-> weight_decay = 5e-4 
+> batch_size = 128
+> epoch_num = 3
+> learning_rate = 1e-4
+> weight_decay = 5e-4
 
 学习率采用每个epoch依次减少的方法，最后测试集精度86%。
 
